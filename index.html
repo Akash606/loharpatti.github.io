@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./image/logo.jpg" type="image/gif" sizes="16x16">
+    <title>iamhere.github.io</title>
+</head>
+<body>
+    <div class="head">
+        <h1>Loharpatti</h1>
+        
+    </div>
+<div class="nav class">
+    <ul>
+        <a href="index.html"> <li>HOME</li></a>
+        <a href="about.html"> <li>About</li></a>
+        <a href="contact.html"> <li>Contact</li></a>
+    </ul>
+</div>
+<div class="space"></div>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="./image/1.jpg">
+  <img class="mySlides" src="./image/2.jpg" >
+  <img class="mySlides" src="./image/3.jpg" >
+  <img class="mySlides" src="./image/4.jpg">
+  <img class="mySlides" src="./image/5.jpg">
+  <img class="mySlides" src="./image/6.jpg" >
+
+  <button class="w3-button left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+</div>
+<div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28490.61986055275!2d85.83482968576897!3d26.79769932332803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec6bd91d86a1c9%3A0x3f8d20d49c82d8c9!2sLoharpatti+45700%2C+Nepal!5e0!3m2!1sen!2sin!4v1526794251229" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+</div>
+<div class="cont">
+<p>Loharpatti is a village development committee in Mahottari District in the Janakpur Zone of south-eastern Nepal. At the time of the 1991 Nepal census it had a population of 6449 people living in 1251 individual households. Ajay sah is a famous people in loharpatti</p>
+</div>
+<div class="footer">
+  <p> Name: Akash Kumar Sah</p> 
+    <Address> Loharpatti,mahottari,Nepal</Address>
+    <p>Contact:sahakash2017@gmail.com</p>
+    <a href="https://www.facebook.com/akash.sah.5015" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/akash-kumar-sah-052298158/" class="fa fa-linkedin"></a>
+
+
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+</body>
+</html>

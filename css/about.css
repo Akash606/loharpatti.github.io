@@ -1,0 +1,16 @@
+.img{
+    margin: 10px;
+    left:83%;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border: 2px solid rgb(133, 37, 223);
+}
+.foo{
+    position: absolute;
+    bottom: 0px;
+}
+.aboutme{
+    margin: 20px;
+    width: 50%;
+}

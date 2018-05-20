@@ -1,0 +1,83 @@
+.nav{
+    background: #0d1959;
+    
+}
+ul{
+
+    list-style-type:none;
+    margin: 0px;
+    padding:0px;
+    height: 40px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 10px;
+    color: white;
+}
+li:hover{
+    background:#13193a;
+    padding: 10px;
+}
+.profile{
+    height:200px;
+    width: 150px;
+    border: 1px solid coral;
+    margin: 20px;
+    position: absolute;
+    left:85%;
+}
+.footer{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+.map{
+    margin: 50px;
+}
+.w3-content{
+    margin: 300px;
+    left:200px;
+}
+.mySlides{
+    width: 320px;
+    height: 400px;
+}
+.right
+{
+    position: absolute;
+    left: 320px;
+    top: 50%;
+    background: black;
+}
+.left{
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    background: black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .space{
+      margin: 20px;
+  }
+  .cont{
+      padding: 5px;
+  }
+  .pin{
+      
+      
+  }
